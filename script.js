@@ -19,10 +19,10 @@ const startAction = function()
     }
     else if(guess){
         if(guess < goldenNumber){
-            document.querySelector('.message').textContent = '📉Too low!!!';
+            document.querySelector('.message').textContent = '📉 Too low!!!';
         }
         else{
-            document.querySelector('.message').textContent = '📈Too high!!!';
+            document.querySelector('.message').textContent = '📈 Too high!!!';
         }
         decreaseScore();
         updateScore();
